@@ -1,0 +1,175 @@
+
+.aside-extra {
+    display: flex;
+    gap: 25px;
+}
+
+.aside-two {
+   max-width: 351px;
+    border: 1px solid #E9EBF3;
+    border-radius: 12px;
+    padding: 10px 20px 20px 20px;
+    height: 1027px;
+}
+
+.aside-two h3 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.aside-two .det {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    color: #757575;
+}
+
+.aside-two h4 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+}
+
+.social-medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.social-medias p {
+    height: 25px;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.account textarea {
+    background-color: #F5F5F5;
+    color: #9397B2;
+    font-size: 15px;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.account .btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.account button {
+    width: 150px;
+    height: 40px;
+}
+
+.account .close {
+    background-color: #F5F5F5;
+    color: #757575;
+}
+
+.account-item {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #707FDA;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 20px;
+}
+
+.aside-two form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.aside-two label {
+    display: flex;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.375em;
+
+}
+
+.aside-two label input {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: -9999px;
+}
+
+.aside-two label input:checked+span:before {
+    box-shadow: inset 0 0 0 0.300em #707FDA;
+}
+
+.aside-two label span:before {
+    display: flex;
+    flex-shrink: 0;
+    content: "";
+    background-color: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 0.375em;
+    transition: 0.25s ease;
+    box-shadow: inset 0 0 0 0.125em #707FDA;
+}
+
+
+
+
+
+
+
+
+
+.aside-order {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.aside-details {
+    height: 537px;
+}
+
+.aside-status {
+    width: 351px;
+    height: 94px;
+    border-radius: 12px;
+    border: 1px solid #E9EBF3;
+    padding: 20px;
+}
+
+.aside-status label {
+    color: #757575;
+    font-size: 12px;
+}
+
+.pending-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    font-size: 14px;
+
+}
+
+.pending-item {
+    margin-top: 15px;
+}
+
+/*******************************************************/
+

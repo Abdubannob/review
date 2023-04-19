@@ -1,0 +1,310 @@
+
+.grid-carousel {
+    display: grid;
+    grid-template-columns: repeat(4, 294.75px);
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.grids {
+    margin-top: 40px;
+}
+
+.carousel .cart {
+    margin-top: 100px;
+}
+
+.box-img {
+    width: 294.75px;
+    height: 150px;
+}
+
+.grid-carousel .box {
+    border-radius: 8px;
+    height: 420px;
+}
+
+.box-img img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.box .all-info {
+    padding: 16px 16px 16px 16px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+
+.pending {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 20px;
+}
+
+.pending .comment {
+    width: 16px;
+    height: 16px;
+}
+
+.user-services {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pending span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #F5A200;
+}
+
+.users {
+    font-family: Roboto;
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    color: #212121;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CDD0E4;
+}
+
+.users .user-photo {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.box {
+    background-color: #fff;
+    position: relative;
+}
+
+.box .data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.calendar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* padding-left: 15px; */
+    font-size: 14px;
+}
+
+.box .data .text {
+    width: 260px;
+    font-size: 15px;
+    /* padding-left: 15px; */
+}
+
+.box .data .price {
+    width: 260px;
+    font-size: 20px;
+    /* padding-left: 15px; */
+    font-weight: 600;
+}
+
+.extra-information .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    border: 1px solid #CDD0E4;
+    border-radius: 4px;
+    font-size: 14px;
+    gap: 5px;
+}
+
+.extra-information {
+    max-width: 230px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.box .order {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -55px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    transition: all .2s linear;
+    z-index: 8;
+    display: none;
+
+}
+
+.order button {
+    width: 242px;
+    margin: 0 auto;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #707FDA;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+
+}
+
+.box:hover .order {
+    display: flex;
+    transition: all .2s linear;
+}
+
+.left-arrow {
+    position: relative;
+}
+
+.side-left {
+    position: absolute;
+    top: 250px;
+    left: -35px;
+    z-index: 9;
+}
+
+.side-right {
+    position: absolute;
+    position: absolute;
+    top: 250px;
+    right: -35px;
+    z-index: 9;
+}
+
+.right-arrow {
+    position: relative;
+}
+
+.left-arrow .arrow {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+}
+
+.right-arrow .arrow {
+    position: absolute;
+    top: 16px;
+    left: 22px;
+}
+
+.bannet {
+    width: 100%;
+    height: 254px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+    padding: 0 50px;
+    position: relative;
+    background-image: url("../../images/Header.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image {
+    position: relative;
+    display: flex;
+    gap: 2px;
+}
+
+.like {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 32px;
+    width: 32px;
+
+}
+
+.LoveHeart {
+    width: 16px;
+    height: 15px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    padding: 8px;
+}
+
+.dots {
+    display: flex;
+    gap: 1px;
+    position: absolute;
+    top: 6px;
+    left: 3px;
+
+}
+
+.dotted {
+    width: 2.82px;
+    height: 2.82px;
+}
+
+
+.bannet h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.bannet span {
+    width: 548px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.bannet button {
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.bannet img {
+    width: 111px;
+    height: 111px;
+    position: absolute;
+}
+
+.bannet .circle {
+    top: 100px;
+    right: 100px;
+    z-index: 2;
+}
+
+.bannet .quadrat {
+    top: 40px;
+    right: 140px;
+}
+
+.loading {
+    text-align: center;
+    padding: 50px 0;
+    color: #757575;
+}
+
+
+
+
+

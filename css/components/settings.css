@@ -1,0 +1,141 @@
+.settings-operation{
+    max-width: 1059px;
+    height: 826px;
+    margin-left: 360px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-side-profile{
+    max-width: 1059px;
+    height: 120px;
+    background-image:linear-gradient(180deg, hsl(231, 43%, 55%, 0.7) 0%, hsl(231, 43%, 55%, 0.6) 100%), url("../../images/image/background-setting.svg");
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+}
+
+.top-side-profile button{
+    position: absolute;
+    width: 87px;
+    height: 40px;
+    background-color: #F4F5F9;
+    color: #5B69BD;
+    right: 20px;
+    top: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+}
+
+.bottom-side-profile{
+    max-width: 1059px;
+    height: 486px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.bottom-side-profile h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.go-back{
+   width: 701px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.bottom-side-profile .go-back span{
+    width: 475px;
+    font-size: 17px;
+    color: #4E525D;
+    text-align: center;
+}
+.bottom-side-profile .go-back label{
+    color: #707FDA;
+    border-bottom: 1px solid #707FDA;
+    line-height: 1;
+}
+
+.withdrawal-top{
+    display: flex;
+    gap: 20px;
+    margin:  40px 0 10px 0;
+}
+.withdraw-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #cbcccf;
+}
+
+.withdrawal-top h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.withdraw-settings{
+    margin-left: 380px;
+}
+
+.settings-operation-two{
+    max-width: 1059px;
+    height: 130px;
+    margin-left: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.enable-notifcation .email-item form{
+    color: #9B9FAB;
+}
+
+.enable-notifcation .email-item .notifcation-btn button{
+    color: #A0B0E5;
+}
+
+.enable-notifcation .email-notifcation-button label{
+    color: #AEB1BB;
+}
+
+.enable-notifcation .turn-on-off .dark-light{
+    background-color: #C7CBE0;
+}
+
+.enable-notifcation .turn-on-off .dark-light .light-active{
+    left: 2px;
+    top: 2px;
+}
+
+.enable-notifcation .email-item .email-notifcation-button .cancel-item img{
+    filter: invert(84%) sepia(9%) saturate(1100%) hue-rotate(165deg)
+    brightness(88%) contrast(83%);
+}
+
+.settings-operation-enable{
+    width: 1059px;
+    height: 726px;
+    margin-left: 360px;
+}

@@ -1,0 +1,27 @@
+.submission {
+    max-width: 858px;
+    height: 69px;
+    background-color: #FFF;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px 20px 20px;
+}
+
+.submission span {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.submission label {
+    display: flex;
+    gap: 12px;
+}
+
+.four-upload {
+
+    height: 720px;
+}

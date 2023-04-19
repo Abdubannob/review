@@ -1,0 +1,277 @@
+.complete-todo .green-color{
+    color: #4F8C77;
+}
+
+.brand-render-service{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.brand-information{
+    max-width: 400px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding-top: 1px;
+}
+
+.brand-information .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    border: 1px solid #CDD0E4;
+    border-radius: 4px;
+    font-size: 14px;
+    gap: 5px;
+}
+
+.influencer-information{
+    max-width: 700px;
+}
+
+.dashboard-top a{
+    color: #4F8C77;
+}
+
+.header-right .brand-header-img{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/images/dashboard/logo.PNG");
+}
+
+.brand-data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom:  1px solid #E9EBF3;
+    padding:0 0 10px 0;
+}
+
+.brand-users{
+    border-bottom: none;
+}
+
+.brand-prices{
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+    line-height: 20px;
+}
+.brand-price {
+    width: 260px;
+    font-size: 20px;
+    /* padding-top: 10px; */
+    font-weight: 600;
+}
+
+.brand-carousel .box{
+    border-radius: 8px;
+    height: 410px;
+}
+
+
+/*****************************************************/
+
+.influencers-items{
+    max-width: 1239px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.influencers-item{
+    max-width: 1239px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(27, 30, 51, 0.04);
+    position: relative;
+}
+
+.brand-like{
+    width: 37px;
+    height: 37px;
+    border: 1px solid #B1CDBA;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.influencers-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.influencers-info span{
+font-size: 18px;
+font-weight: 600;
+line-height: 20px;
+}
+.influencers-info label{
+    font-size: 14px;
+    color: #757575;
+    }
+    
+
+.influencers-text{
+    display: flex;
+    align-items: center;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.influencers-brand-text{
+    display: flex;
+    gap: 60px;
+}
+
+.influencers-item .info-amount{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contain-img{
+    height: 25px;
+}
+
+.brand-details {
+    width: 351px;
+    height: 470px;
+}
+
+.brand-details button{
+    width: 100%;
+    height: 40px;
+    background-color: #6A9586;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    margin-top: 17px;
+}
+
+.video-player-little{
+    position: relative;
+}
+
+.plays {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.plays .polygon-item{
+    position: absolute;
+    width: 15px;
+    top: 7px;
+    left: 10px;
+}
+
+
+.branding{
+    margin: 20px 0;
+}
+
+.brand-video-prop{
+    border-radius: 12px;
+    height: 1220px;
+    overflow: hidden;
+}
+
+
+
+.request-counting{
+    padding: 0.1px 5px;
+    background-color: #F5A200;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favorites-item{
+    display: none;
+}
+.show-off{
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+
+
+#order2:checked ~ .favorites-item{
+    display: flex;
+}
+
+#order1:checked ~  .order-operation .pseudo-active{
+    width: 30px;
+    height: 2px;
+    background-color: #6A9586;
+}
+#order2:checked ~  .order-operation .pseudo-active-two{
+    width: 30px;
+    height: 2px;
+    background-color: #6A9586;
+}
+
+#order3:checked ~  .order-operation .pseudo-active-three{
+    width: 30px;
+    height: 2px;
+    background-color: #6A9586;
+}
+
+
+#order1:checked ~ .show-off{
+    display: flex;
+}
+
+#order2{
+    display: none;
+}
+#order1{
+    display: none;
+}
+#order3{
+    display: none;
+}
+
+/******************************************************/
+
+/******************************************************/
+
+
+.pending .green-color{
+    color: #4CAF50;
+    font-weight: 600;
+}
+
+.brand-data{
+    padding-bottom: 12px;
+    border-bottom: 1px solid #E9EBF3;
+}
+
+.grid-carousel .brand-box{
+    height: 500px;
+}

@@ -1,0 +1,8 @@
+1. FAQ
+2. Career
+3. Blog
+4. Contact
+5. Landing Page
+6. Pricing Page (Influnecer, Brand)
+7. 404 Page
+8. Alert

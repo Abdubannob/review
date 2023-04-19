@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+:root {
+    --white: #ffffff;
+    --backgrounds: #F5F5F5;
+    --primary: #212121;
+    --secondary: #707FDA;
+    --dark-yellow: #F5A200;
+    --green: #4CAF50;
+    --footer: #3F414E;
+    --extra: #F5F5F5;
+    --third-color: #757575;
+    --extra-two: #E9F3EB;
+    --extra-three: #E9EBF3;
+    --extra-four: #F4F5F9;
+    --extra-five: #6A9586;
+}
+
+.filt {
+    position: fixed;
+    top: 60px;
+width: 1290px;
+background-color: yellow;
+height: 50px;
+z-index: 99;
+}

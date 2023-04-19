@@ -1,0 +1,90 @@
+
+.youtube-upload {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #E9EBF3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+
+.video-integration {
+    display: flex;
+    padding: 7px 0 25px 0;
+    flex-direction: column;
+    gap: 15px;
+    border-bottom: 1px solid var(--extra-three);
+}
+
+.integrations {
+    background-color: #E9EBF3;
+    border-radius: 12px;
+    height: 80px;
+}
+
+.youtube-integration {
+    padding: 5px 0 0 10px;
+}
+
+.youtube-upload .icons {
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.video-integration label {
+    font-weight: 500;
+    font-size: 14px;
+    color: #757575;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+}
+
+.video-integration .bolds {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #212121;
+}
+
+.youtube .smotra {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary);
+
+}
+
+.url input {
+    width: 703px;
+    height: 40px;
+    background-color: #F5F5F5;
+    outline: none;
+    border: none;
+    padding: 11px 15px;
+    border-radius: 6px;
+}
+
+.url {
+    display: flex;
+    gap: 10px;
+}
+
+.url button {
+    color: #fff;
+    width: 85px;
+    height: 40px;
+    background-color: var(--secondary);
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.inf-details-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

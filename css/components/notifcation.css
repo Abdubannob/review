@@ -1,0 +1,126 @@
+.notifications-items{
+    width: 644px;
+    height: 1379px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    transition: all .2s linear;
+ 
+}
+
+.notifications-items{
+    display: none;
+}
+
+.top-notification{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 0px 2px 4px rgba(27, 30, 51, 0.04)
+}
+.top-notification img{
+    width: 16px;
+    height: 16px;
+}
+
+.top-notification h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-top: 5px;
+    font-style: normal;
+}
+
+.content-notification label{
+    font-size: 14px;
+    color: var(--third-color);
+    font-weight: 400;
+}
+
+.note-contents{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px 20px 30px;
+}
+
+.note-contents::-webkit-scrollbar-thumb{
+    width: 6px;
+    background-color: #E1E5E4;
+    border-radius: 13px;
+}
+
+.note-contents::-webkit-scrollbar{
+    width: 6px;
+    height: 100%;
+}
+.bottom-notification{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid var(--extra-three);
+    padding: 15px 0;
+    
+    /* margin-top: 30px; */
+}
+.bottom-notification .note{
+    font-size: 18px;
+    color: var(--primary);
+    font-weight: 600;
+}
+.bottom-notification span{
+    font-size: 14px;
+    color: var(--primary);
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.note-button{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.note-button .greens{
+    background-color: var(--extra-five) ;
+    font-size: 15px;
+    color: var(--white) ;
+}
+.note-button .gray{
+    background-color: var(--extra-four) ;
+    font-size: 15px;
+    color: var(--extra-five);
+}
+.bottom-notification .btns{
+    width: 96px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 11px 20px 11px 20px;
+    /* background-color: var(--extra-four); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ .linear-gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1300px;
+    height: 1380px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.linear-gradient {
+    display: none;
+}

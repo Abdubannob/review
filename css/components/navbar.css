@@ -1,0 +1,210 @@
+
+.navigation {
+    width: 101px;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    width: 101px;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    /* overflow-y: scroll; */
+}
+
+
+.navigation .menu-bars {
+    width: 101px;
+    height: 84px;
+    padding: 62px 0px;
+    gap: 4px;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #707FDA;
+    color: #f9f9ff;
+    position: relative;
+    border-bottom-right-radius: 10px;
+    /* border-radius: 10px; */
+
+}
+
+.navigation .nav-bars {
+    width: 101px;
+    height: 84px;
+    padding: 66px 0px;
+    gap: 4px;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #707FDA;
+    color: #f9f9ff;
+    position: relative;
+    font-size: 14px;
+    /* border-radius: 10px; */
+
+}
+
+
+
+.navigation .menu-cont {
+    width: 101px;
+    height: 100%;
+    padding-top: 40px;
+    background-color: #707FDA;
+}
+
+.navigation .menu-bar {
+    width: 101px;
+    height: 84px;
+    padding: 20px 0px;
+    gap: 4px;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #707FDA;
+    color: #f9f9ff;
+    position: relative;
+
+}
+
+.navigation .active {
+    width: 101px;
+    height: 84px;
+    padding: 20px 0px;
+    gap: 4px;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #000;
+}
+
+.navs .menu-bar .count {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+.navs .menu-bar span {
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+.navs .bottom-radius {
+    border-top-right-radius: 10px;
+}
+
+.navigation .menu-bar .count {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+.navigation .menu-bar span {
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+.navigation .menu-bars span {
+    font-size: 14px;
+    font-family: Roboto;
+}
+.navigation .brand-bars span {
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+
+.navigation .bottom-radius {
+    border-top-right-radius: 10px;
+}
+
+
+
+.navigations{
+    width: 101px;
+    height: 100vh;
+    padding: 0px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    width: 101px;
+    left: 0;
+    top: 60px;
+    /* overflow-y: scroll; */
+   /* z-index: 0; */
+    /* bottom: 114px; */
+}
+
+
+
+.navigations .menu-bar {
+    width: 101px;
+    height: 84px;
+    padding: 25px 0px;
+    gap: 4px;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #707FDA;
+    color: #f9f9ff;
+    position: relative;
+    z-index: 99;
+}
+.navigations .active {
+    width: 101px;
+    height: 84px;
+    padding: 18px 0px;
+    gap: 4px;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #000;
+}
+
+.navigations .menu-bar .count{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+.navigations .menu-bar span{
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+.navigations .menu-bottom{
+    width: 101px;
+    height: 100%;
+    background-color: #707FDA;
+}
+
+.navigations .menu-top{
+width: 101px;
+height: 270px;
+background: #707FDA;
+border-bottom-right-radius: 10px;
+}
+
+

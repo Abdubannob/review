@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+
+:root {
+    --white: #ffffff;
+    --backgrounds: #f9f9ff;
+    --primary: #212121;
+    --secondary: #707FDA;
+    --dark-yellow: #F5A200;
+    --green: #4CAF50;
+    --footer: #3F414E;
+    --extra: #F5F5F5;
+    --third-color: #757575;
+    --extra-two: #E9F3EB;
+    --extra-three: #E9EBF3;
+    --extra-four: #F4F5F9;
+    --extra-five: #6A9586;
+}
+
+.grid{
+    margin-top: 15px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+   
+    background-color: var(--backgrounds);
+}
+
+
+
+/****************************************/
+
+
+/**********************************************/
+
+
+
+/**********************************/
+
+
+
+
+
+/*********************************************/
+
+
+
+
+
+/*********************/
+

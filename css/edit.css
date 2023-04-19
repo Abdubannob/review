@@ -1,0 +1,1038 @@
+
+:root {
+    --white: #ffffff;
+    --backgrounds: #f9f9ff;
+    --primary: #212121;
+    --secondary: #707FDA;
+    --dark-yellow: #F5A200;
+    --green: #4CAF50;
+    --footer: #3F414E;
+    --extra: #F5F5F5;
+    --third-color: #757575;
+    --extra-two: #E9F3EB;
+    --extra-three: #E9EBF3;
+    --extra-four: #F4F5F9;
+    --extra-five: #6A9586;
+    --edition-button: #5B69BD;
+}
+
+.edit-profile{
+    position: absolute;
+    width: 240px;
+    height: 1240px;
+    left: 101px;
+    top: 0;
+    background-color: #fff;
+    z-index: 0;
+    padding: 40px 46px 40px 20px;
+}
+
+
+.edit-invoices{
+    position: absolute;
+    width: 240px;
+    height: 1041px;
+    left: 101px;
+    top: 0;
+    background-color: #fff;
+    z-index: 99;
+    padding: 40px 46px 40px 20px;
+}
+
+.edit-profile .edit-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+    color: var(--third-color);
+    font-size: 15px;
+}
+
+.edit-items .edit-item{
+    display: flex;
+    gap: 10px;
+}
+.edit-items .item{
+    font-size: 15px;
+    color: var(--primary);
+}
+
+.edition{
+    width: 1019px;
+    height: 1145px;
+    margin-left: 371px;
+    margin-top: 100px;
+}
+.channel-edition{
+    width: 1019px;
+    height: 1145px;
+    margin-left: 171px;
+    margin-top: 80px;
+}
+
+
+.edition-withdrawal{
+    height: 941px;
+}
+.withdrawal-two{
+    height: 841px;
+}
+.edition h1{
+    margin: 40px 0 30px 0;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--primary);
+}
+
+.edition .email{
+    background-color: transparent;
+    padding: 0;
+}
+.edition .password{
+    display: flex;
+    height: 40px;
+    border-radius: 6px;
+    width: 100%;
+    background-color: var(--extra);
+}
+
+.edition .password button{
+    width: 50px;
+    height: 40px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.password button img{
+    width: 18px;
+    height: 12px;
+}
+
+.edition .password input{
+    border: none;
+    outline: none;
+}
+.edition .email-password{
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.email-password .save{
+    margin-top: 10px;
+}
+
+.edition .email-item{
+    width: 500px;
+}
+
+.edition .email-item{
+    font-size: 14px;
+    color: #9397B2;
+    line-height: 16.14px;
+}
+.edition-profile{
+    width: 100%;
+    height: 975px;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.upload-new-picture{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.upload-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    border: 1px solid var(--edition-button) ;
+    color: var(--edition-button);
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.delete-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    width: 83px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: var(--extra-four);
+    border: 1px solid var(--edition-button) ;
+    color: var(--edition-button);
+    cursor: pointer;
+}
+
+.sign-in{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sign-in .item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sign-in .item form{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: var(--primary);
+}
+
+.sign-in input{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    background-color:  #F5F5F5;
+    border: none;
+    padding: 20px;
+}
+.sign-in select{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    background-color:  #F5F5F5;
+    border: none;
+    padding-left:20px;
+    color: var(--third-color);
+}
+
+.gender{
+    width: 347px;
+}
+.sign-in .input-active{
+    outline: 1px solid var(--secondary);
+    background-color: transparent;
+    border: 1px solid var(--secondary);
+}
+.input-item{
+    outline: 1px solid var(--secondary);
+}
+.gender-button{
+    /* width: 81px; */
+    /* height: 40px; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #F5F5F5;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid var(--third-color);
+}
+.edit-number .sign-info{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    background-color:  #F5F5F5;
+    border: none;
+}
+
+.sign-info input{
+    height: 30px;
+}
+.sign-info .code-number{
+    width: 70px;
+    font-size: 15px;
+    padding: 0 0 0 20px;
+    outline: none;
+    border: none;
+    border-radius:  0;
+    height: 30px;
+    border-right: 1px solid #E9EBF3;
+    background: transparent;
+}
+.sign-info .code-number-two{
+    padding: 0 0 0 10px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.gender-button img{
+    width: 10px;
+    height: 10px;
+}
+
+.gender-button .cancel-item{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #B1CDBA;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gender span{
+    font-size: 14px;
+    color: #99A19C;
+}
+
+.btn-edit{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.save{
+    width: 73px;
+    height: 40px;
+    background-color: var(--secondary);
+    font-size: 15px;
+    font-weight: 500;
+    border: navajowhite;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.email-item .notifcation-btn{
+    background-color: #fff;
+    border:  1px solid #C5C5C5;
+}
+
+.notifcation-btn button{
+    color: var(--secondary);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.email-notifcation-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 97px;
+    height: 31px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    border:  1px solid #CED4E2;
+}
+
+.email-notifcation-button label{
+    min-width: 53px;
+    height: 100%;
+    font-size: 13px;
+    color: #373E56;
+    border-right: 1px solid #CED4E2;
+    padding:8px;
+}
+
+.email-notifcation-button .cancel-item{
+    color: #373356;
+    width: 15px;
+}
+
+.edition .dark-light .light-active {
+    width: 21px;
+    height: 21px;
+    border-radius: 13px;
+    background-color: #fff;
+    position: absolute;
+    left: 21px;
+    top: 2px;
+}
+
+.edit-profile a{
+    text-decoration: none;
+    color: #757575;
+}
+
+.navigation .settings-actived{
+    width: 101px;
+    height: 84px;
+    padding: 20px 0px;
+    gap: 4px;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #000;
+}
+.notifcation-profile{
+    height: 701px;
+}
+
+.notifcation-profile .email-item form{
+    font-size: 16px;
+}
+
+.notifcation-edition{
+    height: 882px;
+}
+
+.stop-notifcation{
+    font-size: 16px;
+    color: #373E56;
+    font-weight: 700;
+}
+
+.edition .dark-light{
+    background-color: var(--secondary);
+}
+.edition-profile .turn-on-off{
+    margin: 30px 0 20px 0;
+}
+
+
+
+/*********************************************************/
+
+.withdraw{
+    padding-top: 20px;
+    width: 200px;
+    height: 100px;
+    border-bottom: 1px solid var(--extra-four);
+}
+
+.email-password h4{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--primary);
+}
+
+.withdrawal-earning{
+    max-width: 979px;
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.revenue-earning{
+    max-width: 979px;
+    height: 81px;
+    display: flex;
+    justify-content: center;
+}
+.revenue-earning .earn-box{
+    border-right: none;
+}
+
+.earn-box span{
+    font-size: 16px;
+    line-height: 28px;
+    color: #212121;
+    font-weight: 400;
+}
+
+.earn-box h3{
+    font-weight: 700;
+    font-size: 24px;
+    
+}
+
+.withdrawal-earning .last-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    width: 33.3%;
+    border-right: none;
+}
+.earn-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    width: 33.3%;
+    border-right: 1px solid #E9EBF3;
+    }
+
+    .email-password h4{
+        letter-spacing: 0.1em;
+    }
+
+    .invoice-table{
+        border-bottom: 1px solid #CED4E2;
+        position: relative;
+    }
+
+    .invoice-table .amount{
+        /* width: 100px; */
+        position: absolute;
+        right: 10px;
+        top: 0;
+    }
+
+    .invoice-table th{
+        height: 50px;
+    }
+
+    .invoice-information{
+        width: 100%;
+        overflow-y: scroll;
+    }
+    
+    .scroll-bar{
+        max-width: 1019px;
+        height: 854px;
+        overflow-y: scroll;
+    }
+
+
+    .scroll-bar::-webkit-scrollbar-thumb{
+        width: 6px;
+        background-color: #E1E5E4;
+        border-radius: 13px;
+    }
+    
+    .scroll-bar::-webkit-scrollbar{
+        width: 6px;
+        height: 100%;
+    }
+
+    /*****************************************************/
+
+    .withdrawal-amount{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 420px;
+        height: 168px;
+        border-bottom: 1px solid #EBEBEB;
+    }
+
+    .withdrawal-amount span{
+        font-size: 16px;
+        font-weight: 700;
+        color: #4E525D;
+    }
+
+    .withdrawal-amount .button{
+        width: 160px;
+        height: 70px;
+        font-size: 24px;
+        font-weight: 700;
+        background-color: #fff;
+        border: 2px solid var(--secondary);
+        border-radius: 6px;
+    }
+
+    .process{
+        width: 100%;
+        height: 28px;
+        padding-left: 16px;
+        border-left:  1px solid #757575;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    .process span{
+        font-weight: 700;
+        font-size: 16px;
+        color: var(--primary);
+    }
+
+    .process label{
+        font-size: 16px;
+        color: #757575;
+        font-weight: 400;
+    }
+
+    .add-withdrawal-method{
+        width: 259px;
+        height: 80px;
+        padding: 12px 22px 12px 22px;
+        background-color: #F9F9FF;
+        border: 1px solid #E5E5E5;
+        border-radius: 12px;
+    }
+
+ .add-withdrawal-method  .add-withdraw{
+        color: var(--secondary);
+        font-weight: 700;
+    }
+
+    .add-withdrawal-method span{
+        font-size: 15px;
+    }
+
+ .withdraw-btn{
+    width: 117px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #707FDA;
+    padding: 11px 20px 11px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+}
+  
+.withdraw-info{
+    height: 471px;
+}
+
+.withdraw-method{
+    border-bottom: none;
+}
+
+
+/****************************************************/
+
+
+
+
+.setting-withdrawal{
+  
+    height: 1035px;
+
+}
+
+.withdrawal-scroll-bar{
+    height: 790px;
+}
+
+.withdrawal-profile{
+    height: 900px;
+}
+
+
+/****************************************************/
+
+.payment-method{
+    max-width: 1019px;
+    height: 331px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.payment-method .method{
+    font-weight: 700;
+    font-size: 14px;
+}
+.payment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px 0;
+}
+.payment-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 50px;
+    border: 1px solid var(--edition-button);
+    border-radius: 12px;
+    padding: 15px 20px;
+}
+
+.pay{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+
+.pay-active{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid var(--secondary);
+}
+.payment-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.withdraw-btns{
+    background-color: var(--secondary);
+    border-radius: 6px;
+    padding: 11px 20px 11px 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+}
+
+.logo-payment-img{
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-method .btns{
+    margin-top: 10px;
+}
+
+
+
+
+/*************************************************************/
+
+
+.withdraw-payment-way{
+    width: 100%;
+    height: 765px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.price-withdraw{
+    height: 30px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.payment-method-two{
+    max-width: 1019px;
+    height: 331px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 0;
+}
+
+.payment-circle-logo{
+    width: 47px;
+    height: 47px;
+    display: flex;
+    border-radius: 50%;
+    background-color: #F9F9FF;
+    border: 1px solid  #CED4E2;
+}
+
+.payment-item-two{
+    max-width: 719px;
+    height: 80px;
+}
+
+.credit-card-number{
+    display: flex;
+    flex-direction: column;
+}
+.credit-card-number label{
+    font-size: 15px;
+    color: #373E5699;
+}
+.credit-card-number span{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.payment-method-two .add{
+    background: rgba(112, 127, 218, 0.15);
+    color: #3F414E;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.buttons{
+    width: 701px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+
+/*********************************************************/
+
+.withdrawal-payment{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.withdrawal-payment .payment-logo{
+    border-bottom:  1px solid #E9EBF3;
+    padding: 0 0  20px 0;
+}
+
+.withdrawal-payment .set-logo{
+    display: flex;
+    gap: 20px;
+    padding-left: 40px;
+}
+
+.withdrawal-payment .payment-logo .paypal img{
+    width: 90px;
+    height: 30px;
+}
+
+.withdrawal-payment .last-payment{
+    border-bottom: none;
+    padding: 10px 0  10px 0;
+}
+
+.last-method{
+    max-width: 1019px;
+    height: 435px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.bank-card{
+    display: flex;
+    gap: 10px;
+}
+
+.bank-card span{
+    width: 54px;
+}
+
+
+
+
+
+
+/*************************************************************/
+
+
+.social-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-left label .country{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.order-text .left-bottom-text{
+    width: 850px;
+    display: flex;
+    gap: 10px;
+    border-right:  1px solid var(--extra-four);
+}
+
+
+
+.order-text .left-bottom-text .social-service-name  span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.order-text .left-bottom-text .social-service-name  label {
+    font-size: 14px;
+    width: 8200px;
+}
+
+.social-item button{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 20px 11px 20px;
+    background-color: #707FDA;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+}
+
+.social-item button img{
+    width: 18px;
+    height: 18px;
+}
+
+/********************************************************/
+
+.create-channel{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 102px;
+}
+.create-channel .withdraw-img{
+    margin-top: 8px;
+}
+
+.create-social-channel{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.grid-btn{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.selection{
+    max-width: 500px;
+    height: 40px;
+    background-color: #F5F5F5;
+    border-radius: 6px;
+}
+
+.selection select{
+    max-width: 480px;
+    outline: none;
+}
+
+.channel-item .span{
+    font-size: 14px;
+    color: #9397B2;
+}
+.channel-item{
+    margin-top: 20px;
+}
+.grid-btn-two{
+    display: flex;
+}
+
+.sign-in .submit{
+    width: 146px;
+    height: 40px;
+}
+
+.youtube-link{
+    background-color: #F5F5F5;
+}
+
+.item input:active{
+    outline: 2px solid #5B69BD;
+}
+/* .item input{
+    outline: 2px solid #5B69BD;
+} */
+
+.youtube-channel-place{
+    width: 1239px;
+    height: 846px;
+}
+
+
+/**********************************************************/
+
+.successfully-creation{
+    max-width: 1059px;
+    height: 486px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    border-radius: 16px;
+    background-color: transparent;
+}
+
+.successfully-creation .go-to{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.texts{
+    display: flex;
+   gap: 4px;
+}
+
+.gray{
+    color: #757575;
+}
+
+/************************************/
+
+.linear-gradient-two{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1055px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+}
+
+.withdrawal-delete{
+    width: 340px;
+    height: 208px;
+    border-radius: 12px;
+    background-color: #fff;
+    z-index: 999;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.withdrawal-delete img{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 12px;
+    height: 12px;
+}
+
+
+.withdrawal-delete .withdrawal-OK-Close button{
+    padding: 11px 20px 11px 20px;
+    border-radius: 6px;
+    background-color: #F4F5F9;
+    border: none;
+}
+
+.withdrawal-OK-Close{
+    display: flex;
+    gap: 20px;
+    align-self: flex-end;
+    margin-top: 10px;
+}
+.withdrawal-delete .withdrawal-OK-Close .violet{
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #707FDA;
+}

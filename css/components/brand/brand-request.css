@@ -1,0 +1,54 @@
+
+.brand-pending{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.brand-pending .pending .green-color{
+    line-height: 12px;
+}
+
+
+.brand-pending .pending .date{
+    line-height: 12px;
+}
+
+.responses{
+    height: 60px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.responses .res-image{
+    width: 70px;
+}
+.responses .res-image img{
+    width: 70px;
+}
+
+.res-count{
+    font-size: 14px;
+    line-height: 20px;
+    
+    height: 20px;
+}
+.responses button{
+    width: 85px;
+    height: 40px;
+    background-color: #6A9586 ;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+.brand-pending .light-green {
+    color: #34BAB2;
+    font-weight: 600;
+}
+
+
+.social-item .brand-button{
+    background-color: #6A9586;
+}
