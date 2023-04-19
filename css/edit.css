@@ -52,11 +52,19 @@
     display: flex;
     gap: 10px;
 }
-.edit-items .item{
+.edit-items .item-activetion{
     font-size: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
     color: var(--primary);
 }
 
+.item-active{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
 .edition{
     width: 1019px;
     height: 1145px;
